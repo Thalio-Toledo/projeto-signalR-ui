@@ -1,0 +1,19 @@
+    <div class="container-login">
+        <img src="../../assets/imagens/tag.png" />
+        <br />
+        <h1>REAL-PROMO</h1>
+        <div class="container-form">
+            <input type="text" [(ngModel)]="Empresa" placeholder="Empresa" />
+            <br />
+            <input type="text" [(ngModel)]="Chamada" placeholder="Chamada" />
+            <br />
+            <input type="text" [(ngModel)]="Regras" placeholder="Regras" />
+            <br />
+            <input type="text" [(ngModel)]="URL" placeholder="Endereço(URL)" />
+
+            <div class="container-button">
+                <input type="button" (click)="cadastrar()" />
+            </div>
+        </div>
+    </div>
+
